@@ -86,8 +86,26 @@ h3 {
   margin-top: 180px;
   width: auto;
   height: 20px;
-  justify-content: space-around;
   align-items: center;
+}
+
+.footer #github img {
+  width: 80px;
+  height: 50px;
+}
+
+.footer #rsschool img {
+  width: 85px;
+  height: 50px;
+}
+
+.year img {
+  width: 100px;
+  height: 50px;
+}
+
+.footer img {
+  margin-left: 125px;
 }
 
 .main p {
