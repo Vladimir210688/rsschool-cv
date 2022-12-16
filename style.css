@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background: grey;
+ padding: 50px 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container {
+  height: 100%;
+  width: 800px;
+  min-height: 900px;
+  border: 4px solid white;
+  margin: 0 auto;
+  background: white;
+}
+
+.header {
+  display: flex;
+  height: 200px;
+}
+
+.title {
+  display: flex;
+  border: 2px solid grey;
+  justify-content: space-around;
+  align-items: center;
+  width: 86%;
+  height: 100%;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.my_photo {
+  display: flex;
+  height: 100%;
+  width: 14%;
+  border: 2px solid grey
+}
+
+.nav ul {
+  display: flex;
+  background: lightgrey;
+  margin: 10px 0;
+}
+
+.nav li a {
+  display: flex;
+  padding: 20px;
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  border-right: 1px sold grey;
+}
+
+.nav li a:hover {
+  background: rgb(67, 65, 65);
+}
+
+.content-wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;
+  display: flex;
+}
+
+.main {
+  width: 50%;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 50%;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  background: rgb(208, 203, 203);
+  margin-top: 180px;
+  width: auto;
+  height: 20px;
+  align-items: center;
+}
+
+.footer #github img {
+  width: 80px;
+  height: 50px;
+}
+
+.footer #rsschool img {
+  width: 85px;
+  height: 50px;
+}
+
+.year img {
+  width: 100px;
+  height: 50px;
+}
+
+.footer img {
+  margin-left: 125px;
+}
+
+.main p {
+  line-height: 20px; 
+}
