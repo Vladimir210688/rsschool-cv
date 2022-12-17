@@ -45,6 +45,7 @@ h3 {
 }
 
 .nav ul {
+  list-style-type: none;
   display: flex;
   background: lightgrey;
   margin: 10px 0;
